@@ -27,7 +27,7 @@ See Demo (one of two ways)
  * `git clone https://github.com/romeOz/vagrant-rock-validate.git`
  * [Install Vagrant](https://www.vagrantup.com/downloads), and additional Vagrant plugins `vagrant plugin install vagrant-hostsupdater vagrant-vbguest vagrant-cachier`
  * `vagrant up`
- * Open demo [http://rock.validate/](http://rock.validate/) or [http://192.168.33.33/](http://192.168.33.33/)
+ * Open demo [http://rock.validate/](http://rock.validate/) or [http://192.168.33.35/](http://192.168.33.35/)
 
 > Work/editing the project can be done via ssh:
 

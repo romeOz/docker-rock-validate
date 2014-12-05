@@ -38,6 +38,7 @@ cd /var/www/rock-validate
 
 Changelog "Rock validate"
 -------------------
+ * [Release 0.9.2](https://github.com/romeOz/rock-validate/releases/tag/0.9.2)
  * [Release 0.9.1](https://github.com/romeOz/rock-validate/releases/tag/0.9.1)
  * [Release 0.9.0](https://github.com/romeOz/rock-validate/releases/tag/0.9.0)
  

@@ -1,21 +1,25 @@
 <?php
 use rock\validate\Validate;
 
-include_once(__DIR__ . '/vendor/autoload.php');
+if (version_compare(PHP_VERSION, '5.4.0', '<')) {
+    die('need to use PHP version 5.4.x or greater');
+}
+
+require(dirname(__DIR__) . '/vendor/autoload.php');
 
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Demo Rock validate</title>
+    <title>Demo Rock Validate</title>
     <link href="/assets/css/main.min.css" rel="stylesheet">
     <script src="/assets/js/main.min.js"></script>
 </head>
 <body>
 <div class="container main" role="main">
     <div class="demo-header">
-        <h1 class="demo-title">Demo Rock validate</h1>
+        <h1 class="demo-title">Demo Rock Validate</h1>
         <p class="lead demo-description">The example.</p>
     </div>
     <div class="demo-main">

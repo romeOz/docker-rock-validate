@@ -1,4 +1,4 @@
-rootFolder: '/var/www/rock-valiadte'
+root_dir: '/var/www/rock-validate'
 
 username: root
 
@@ -12,5 +12,5 @@ php_post_max_size: 25M
 
 vhosts:
   [
-    { name: 'rock.cache', rootFolder: '/var/www/rock-valiadte'}
+    { name: 'rock.cache', webroot_dir: '/var/www/rock-validate/public'}
   ]

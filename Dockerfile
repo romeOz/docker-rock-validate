@@ -20,7 +20,7 @@ ADD ./ /var/www/rock-validate/
 WORKDIR /var/www/rock-validate/
 
 # Install ansible-playbook
-RUN ansible-playbook -v provisioning/docker.yml --inventory-file=provisioning/hosts -c local
+RUN ansible-playbook -v provisioning/docker.yml -i 'docker,' -c local
 
 # Install supervisor
 RUN apt-get install -y supervisor

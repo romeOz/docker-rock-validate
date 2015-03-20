@@ -1,4 +1,4 @@
-Demo for ["Rock validate"](https://github.com/romeOz/rock-validate)
+Demo for ["Rock Validate"](https://github.com/romeOz/rock-validate)
 ====================
 
 See Demo (one of two ways)
@@ -24,7 +24,7 @@ vagrant ssh
 cd /var/www/rock-validate
 ```
 
-Changelog "Rock validate"
+Changelog "Rock Validate"
 -------------------
  * [Release 0.10.3](https://github.com/romeOz/rock-validate/releases/tag/0.10.3)
  * [Release 0.10.0](https://github.com/romeOz/rock-validate/releases/tag/0.10.0)
@@ -33,4 +33,4 @@ Changelog "Rock validate"
 License
 -------------------
 
-The Demo for ["Rock validate"](https://github.com/romeOz/rock-validate) is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The Demo for ["Rock Validate"](https://github.com/romeOz/rock-validate) is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

@@ -14,6 +14,7 @@ See Demo (one of two ways)
  * `git clone https://github.com/romeOz/vagrant-rock-validate.git`
  * [Install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
  * [Install Vagrant](https://www.vagrantup.com/downloads), and additional Vagrant plugins `vagrant plugin install vagrant-hostsupdater vagrant-vbguest vagrant-cachier`
+ * [Install Ansible](http://docs.ansible.com/intro_installation.html#latest-releases-via-apt-ubuntu)
  * `vagrant up`
  * Open demo [http://www.rock-validate/](http://www.rock-validate/) or [http://192.168.33.35/](http://192.168.33.35/)
 
@@ -24,12 +25,6 @@ vagrant ssh
 cd /var/www/rock-validate
 ```
 
-Changelog "Rock Validate"
--------------------
- * [Release 0.10.3](https://github.com/romeOz/rock-validate/releases/tag/0.10.3)
- * [Release 0.10.0](https://github.com/romeOz/rock-validate/releases/tag/0.10.0)
- * [Release 0.9.0](https://github.com/romeOz/rock-validate/releases/tag/0.9.0)
- 
 License
 -------------------
 

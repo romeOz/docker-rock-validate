@@ -1,0 +1,25 @@
+{
+  "name": "romeoz/vagrant-rock-validate",
+  "description": "Demo for Rock Validate",
+  "keywords": [
+    "validate",
+    "demo"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "email": "serggalka@gmail.com",
+    "issues": "https://github.com/romeOz/vagrant-rock-validate/issues",
+    "source": "https://github.com/romeOz/vagrant-rock-validate"
+  },
+  "authors": [
+    {
+      "name": "Ruslan",
+      "email": "serggalka@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "romeoz/rock-validate": "0.10.*"
+  }
+}

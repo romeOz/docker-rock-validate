@@ -13,19 +13,17 @@ require(dirname(__DIR__) . '/vendor/autoload.php');
 <html>
 <head>
     <title>Demo Rock Validate</title>
-    <link href="/assets/css/main.min.css" rel="stylesheet">
-    <script src="/assets/js/main.min.js"></script>
+    <link href="/assets/css/demo.min.css" rel="stylesheet">
+    <script src="/assets/js/demo.min.js"></script>
 </head>
 <body>
-<div class="container main" role="main">
-    <div class="demo-header">
-        <h1 class="demo-title">Demo Rock Validate</h1>
-        <p class="lead demo-description">The example.</p>
-    </div>
-    <div class="demo-main">
-        <div class="demo-post-title">
-            Base
-        </div>
+<main class="container main" role="main">
+    <header class="header">
+        <h1 class="title">Demo Rock Validate</h1>
+        <p class="lead description">The example.</p>
+    </header>
+    <article>
+        <h2 class="header">Base</h2>
         <pre><code class="php"><!--
 -->use rock\validate\Validate;
 
@@ -46,10 +44,9 @@ $v->validate('O’Reilly'); // output: false
         First error:
         <pre><code class="html"><?=var_export($v->getFirstError())?></code></pre>
 
-
-        <div class="demo-post-title">
-            Custom Placeholders
-        </div>
+    </article>
+    <article>
+        <h2 class="header">Custom Placeholders</h2>
         <pre><code class="php"><!--
 -->use rock\validate\Validate;
 $v = Validate::length(10, 20, true)
@@ -67,13 +64,11 @@ $v->validate('O’Reilly'); // output: false
 ?>
         Errors:
         <pre><code class="html"><?=var_export($v->getErrors())?></code></pre>
-    </div>
-</div>
-<div class="demo-footer">
+    </article>
+</main>
+<footer class="footer">
     <p>Demo template built on <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://github.com/romeOz">@romeo</a>.</p>
-    <p>
-        <a href="#">Back to top</a>
-    </p>
-</div>
+    <p><a href="#">Back to top</a></p>
+</footer>
 </body>
 </html>

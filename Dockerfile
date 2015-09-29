@@ -4,8 +4,7 @@ MAINTAINER romeOz <serggalka@gmail.com>
 RUN rm -rf /etc/nginx/sites-enabled/*
 
 ADD ./sites-enabled/ /etc/nginx/sites-enabled/
-ADD ./public/ /var/www/rock-validate/public/
-ADD ./composer.json /var/www/rock-validate/
+ADD ./src/ /var/www/rock-validate/
 
 WORKDIR /var/www/rock-validate/
 

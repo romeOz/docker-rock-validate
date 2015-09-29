@@ -1,5 +1,5 @@
 {
-  "name": "romeoz/vagrant-rock-validate",
+  "name": "romeoz/docker-rock-validate",
   "description": "Demo for Rock Validate",
   "keywords": [
     "validate",
@@ -9,8 +9,8 @@
   "license": "MIT",
   "support": {
     "email": "serggalka@gmail.com",
-    "issues": "https://github.com/romeOz/vagrant-rock-validate/issues",
-    "source": "https://github.com/romeOz/vagrant-rock-validate"
+    "issues": "https://github.com/romeOz/docker-rock-validate/issues",
+    "source": "https://github.com/romeOz/docker-rock-validate"
   },
   "authors": [
     {

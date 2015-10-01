@@ -8,7 +8,8 @@ ADD ./src/ /var/www/rock-validate/
 
 WORKDIR /var/www/rock-validate/
 
-RUN composer install --prefer-dist --no-dev
+RUN composer install --prefer-dist --no-dev \
+    && chown www-data:www-data /var/www/rock-validate -R
 
 EXPOSE 80
 
